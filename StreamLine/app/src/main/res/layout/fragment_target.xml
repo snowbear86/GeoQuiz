@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="16dp">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/target_title_label"
+        android:textColor="#002406" />
+
+<EditText
+    android:id="@+id/target_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/target_title_hint"/>
+
+
+    <CheckBox
+        android:id="@+id/target_solved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/target_contacted_label" />
+
+    <Button
+        android:id="@+id/target_date"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        tools:text="Wed Nov 14 11:56 EST 2018" />
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/target_details_label"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#002406" />
+
+    <EditText
+        android:id="@+id/target_details"
+        android:layout_width="match_parent"
+        android:layout_height="179dp"
+        android:hint="@string/target_details_hint" />
+
+</LinearLayout>

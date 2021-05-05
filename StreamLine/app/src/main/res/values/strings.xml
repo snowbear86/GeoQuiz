@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StreamLine</string>
+    <string name="target_title_hint">Company you are marketing to.</string>
+    <string name="target_title_label">Target</string>
+    <string name="target_details_label">Details</string>
+    <string name="target_contacted_label">Contacted</string>
+    <string name="target_details_hint">What did you visit about?</string>
+    <string name="new_target">New Target</string>
+
+</resources>
+
+
